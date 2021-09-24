@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:paddingLeft="5dip" android:paddingRight="5dip">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Application" android:layout_gravity="center_horizontal" android:textSize="24dip" android:textColor="@drawable/Red"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Copyright" android:text="@string/Copyright" android:layout_gravity="center_horizontal" android:textColor="@drawable/White"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/CompanyName" android:text="@string/CompanyName" android:layout_gravity="center_horizontal" android:textColor="@drawable/White" android:textSize="24dip"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Dummy" android:layout_gravity="center_horizontal"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/CompanyURL" android:text="@string/CompanyURL" android:layout_gravity="center_horizontal" android:textSize="20dip" android:autoLink="web"></TextView>
+
+</LinearLayout>

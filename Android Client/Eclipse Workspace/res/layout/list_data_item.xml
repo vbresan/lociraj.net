@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dip"
+    >
+    
+    <LinearLayout android:id="@+id/LinearLayout01" 
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent"
+        >
+        
+        <LinearLayout android:id="@+id/LinearLayout02" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_weight="1.0"
+            >
+            
+            <TextView android:id="@+id/Name" 
+                style="@style/PlacemarkDescriptionFont" 
+                android:textStyle="bold" 
+                android:text="@+id/TextView01" 
+            />
+             
+            <TextView android:id="@+id/Description"
+                style="@style/PlacemarkDescriptionFont" 
+                android:text="@+id/TextView02" 
+            />
+        </LinearLayout>
+        
+        <ImageView android:id="@+id/Expander"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/expander_ic_minimized" 
+            android:layout_gravity="center_vertical"
+        />
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/Spacer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="1dip"
+        android:paddingBottom="1dip"
+        android:background="@drawable/Black"
+    />
+
+</LinearLayout>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/WhiteTransparent" android:orientation="vertical">
+    
+    <include android:id="@+id/ActivitiesButtons" 
+        layout="@layout/activities_buttons"
+        android:visibility="visible" 
+    />
+    
+    <ScrollView android:id="@+id/ScrollView01" 
+        android:layout_height="fill_parent" 
+        android:layout_width="fill_parent">
+        
+        <LinearLayout android:id="@+id/LinearLayout03" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:orientation="vertical"
+            android:paddingLeft="5dip"
+            >
+            
+            <LinearLayout android:id="@+id/ATMLayout" 
+                style="@style/CategoryLayout"
+                >
+            
+	            <LinearLayout android:id="@+id/ATMTitleLayout"
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewATM" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_atm" 
+	                />
+	
+	                <TextView android:id="@+id/TextViewATMs"
+	                    style="@style/ListCategoryFont"  
+	                    android:text="@string/ATMs" 
+	                 />
+	            </LinearLayout>
+	            
+	            <include android:id="@+id/ATMDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout android:id="@+id/BankLayout" 
+                style="@style/CategoryLayout"
+                >
+            
+	            <LinearLayout android:id="@+id/BankTitleLayout" 
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewBank" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_bank" 
+	                />
+	                
+	                <TextView android:id="@+id/TextViewBanks" 
+	                    style="@style/ListCategoryFont" 
+	                    android:text="@string/Banks" 
+	                 />
+	                 
+	            </LinearLayout>
+	            
+	            <include android:id="@+id/BankDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+	            
+	        </LinearLayout>
+            
+            <LinearLayout android:id="@+id/GasStationLayout" 
+                style="@style/CategoryLayout"
+                >
+            
+	            <LinearLayout android:id="@+id/GasStationTitleLayout" 
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewGasStation" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_gas_station" 
+	                />
+	                
+	                <TextView android:id="@+id/TextViewGasStation" 
+	                    style="@style/ListCategoryFont" 
+	                    android:text="@string/GasStations" 
+	                 />
+	                 
+	            </LinearLayout>
+	            
+	            <include android:id="@+id/GasStationDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+	            
+	        </LinearLayout>
+            
+            <LinearLayout android:id="@+id/HospitalLayout" 
+                style="@style/CategoryLayout"
+                >
+                
+	            <LinearLayout android:id="@+id/HospitalTitleLayout" 
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewHospital" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_hospital" 
+	                />
+	                
+	                <TextView android:id="@+id/TextViewHospital"
+	                    style="@style/ListCategoryFont"  
+	                    android:text="@string/Hospitals" 
+	                 />
+	                 
+	            </LinearLayout>
+	            
+	            <include android:id="@+id/HospitalDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+	            
+	        </LinearLayout>
+            
+            <LinearLayout android:id="@+id/PharmacyLayout" 
+                style="@style/CategoryLayout"
+                >
+                
+	            <LinearLayout android:id="@+id/PharmacyTitleLayout" 
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewPharmacy" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_pharmacy" 
+	                />
+	                
+	                <TextView android:id="@+id/TextViewPharmacy" 
+	                    style="@style/ListCategoryFont" 
+	                    android:text="@string/Pharmacies" 
+	                 />
+	                 
+	            </LinearLayout>
+	            
+                <include android:id="@+id/PharmacyDataLayout" 
+                    layout="@layout/list_data_container"
+                />           
+	            
+	        </LinearLayout>
+	        
+            <LinearLayout android:id="@+id/FitnessLayout" 
+                style="@style/CategoryLayout"
+                >
+                
+                <LinearLayout android:id="@+id/FitnessTitleLayout" 
+                    style="@style/CategoryTitleLayout" 
+                    >
+                
+                    <ImageView android:id="@+id/ImageViewFitness" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:src="@drawable/icon_map_fitness" 
+                    />
+                    
+                    <TextView android:id="@+id/TextViewFitness" 
+                        style="@style/ListCategoryFont" 
+                        android:text="@string/FitnessCenters" 
+                     />
+                     
+                </LinearLayout>
+                
+                <include android:id="@+id/FitnessDataLayout" 
+                    layout="@layout/list_data_container"
+                />           
+                
+            </LinearLayout>
+            
+            <LinearLayout android:id="@+id/NotaryLayout" 
+                style="@style/CategoryLayout"
+                >
+                
+	            <LinearLayout android:id="@+id/NotaryTitleLayout" 
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewNotary" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_notary" 
+	                />
+	                
+	                <TextView android:id="@+id/TextViewNotary"
+	                    style="@style/ListCategoryFont" 
+	                    android:text="@string/Notaries" 
+	                 />
+	                 
+	            </LinearLayout>
+	            
+	            <include android:id="@+id/NotaryDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout android:id="@+id/PostOfficeLayout" 
+                style="@style/CategoryLayout"
+                >
+            
+	            <LinearLayout android:id="@+id/PostOfficeTitleLayout" 
+	                style="@style/CategoryTitleLayout" 
+	                >
+	            
+	                <ImageView android:id="@+id/ImageViewPostOffice" 
+	                    android:layout_width="wrap_content" 
+	                    android:layout_height="wrap_content" 
+	                    android:src="@drawable/icon_map_post_office" 
+	                />
+	                
+	                <TextView android:id="@+id/TextViewPostOffice" 
+	                    style="@style/ListCategoryFont"
+	                    android:text="@string/PostOffices" 
+	                 />
+	                 
+	            </LinearLayout>
+	            
+	            <include android:id="@+id/PostOfficeDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+	            
+	        </LinearLayout>
+	        
+	        <LinearLayout android:id="@+id/IdemVanLayout" 
+                style="@style/CategoryLayout"
+                >
+            
+                <LinearLayout android:id="@+id/IdemVanTitleLayout" 
+                    style="@style/CategoryTitleLayout" 
+                    >
+                
+                    <ImageView android:id="@+id/ImageViewIdemVan" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:src="@drawable/icon_map_idemvan" 
+                    />
+                    
+                    <TextView android:id="@+id/TextViewIdemVan" 
+                        style="@style/ListCategoryFont"
+                        android:text="@string/IdemVanHr" 
+                     />
+                     
+                </LinearLayout>
+                
+                <include android:id="@+id/IdemVanDataLayout" 
+                    layout="@layout/list_data_container"
+                />
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
