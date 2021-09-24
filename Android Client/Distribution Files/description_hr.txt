@@ -1,0 +1,3 @@
+Pronalazi najbliže bankomate, banke, benzinske stanice, bolnice, ambulante, domove zdravlja, ljekarne, fitness centre, javne bilježnike i poštanske urede u Hrvatskoj.
+
+Za korištenje aplikacije potrebno je ukljuciti detekciju položaja i prijenos podataka preko mreže.

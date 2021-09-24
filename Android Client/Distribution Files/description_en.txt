@@ -1,0 +1,14 @@
+Find the closest Croatian POI.
+
+Currently supported categories:
+
+* ATMs
+* banks
+* gas stations
+* hospitals and ambulances
+* pharmacies
+* fitness centers
+* public notaries
+* post offices
+
+Do not forget to turn on at least one of the location sources and enable the wireless data transfer.
