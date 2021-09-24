@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Categories">
+	    <item>@string/ATMs</item>
+	    <item>@string/Banks</item>
+	    <item>@string/GasStations</item>
+	    <item>@string/Hospitals</item>
+	    <item>@string/Pharmacies</item>
+	    <item>@string/FitnessCenters</item>
+	    <item>@string/Notaries</item>
+	    <item>@string/PostOffices</item>
+	    <item>@string/IdemVanHr</item>
+	</string-array>
+</resources>

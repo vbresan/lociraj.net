@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_lang">hr_HR</string>
+    
+    <string name="AddYourBusinessLocation">Dodaj svoju poslovnu lokaciju</string>    
+    <string name="DataError">Greška prilikom dohvata podataka. Molimo pokušajte opet nešto kasnije.</string>
+
+    <string name="ResultsNumber">Br. rezultata:</string>
+    <string name="Search">Lociraj</string>
+    
+    <string name="LocationUpdates">Ažuriranje položaja</string>
+    <string name="Settings">Postavke</string>
+    <string name="Time">Vrijeme</string>
+    <string name="Distance">Udaljenost</string>
+    
+    <string name="OneMinute">1 minuta</string>
+    <string name="FiveMinutes">5 minuta</string>
+    <string name="TenMinutes">10 minuta</string>    
+    
+    <string name="HalfKilometer">0.5 kilometara</string>
+    <string name="OneKilometer">1 kilometar</string>
+    <string name="FiveKilometers">5 kilometara</string>
+    <string name="TenKilometers">10 kilometara</string>
+    
+</resources>

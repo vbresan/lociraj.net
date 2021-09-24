@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="lociraj_api_key"></string>
+<string name="lociraj_non_business_URL">http://lociraj.net/s/phone/</string>
+<string name="lociraj_business_URL">http://lociraj.net/biz/s/kml/</string>
+<string name="lociraj_add_location_URL">http://lociraj.net/biz/lp/?client=Android</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Time">
+	    <item>@string/OneMinute</item>
+	    <item>@string/FiveMinutes</item>
+	    <item>@string/TenMinutes</item>
+	</string-array>
+</resources>

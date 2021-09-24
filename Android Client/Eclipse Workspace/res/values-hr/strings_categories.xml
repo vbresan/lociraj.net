@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="ATMs">Bankomati</string>
+<string name="Banks">Banke</string>
+<string name="GasStations">Benzinske stanice</string>
+<string name="Pharmacies">Ljekarne</string>
+<string name="Notaries">Javni bilježnici</string>
+<string name="PostOffices">Poštanski uredi</string>
+<string name="Hospitals">Bolnice</string>
+<string name="FitnessCenters">Fitness centri</string>
+<string name="IdemVanHr">IdemVan.hr</string>
+</resources>

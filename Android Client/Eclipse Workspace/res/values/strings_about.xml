@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="About">About</string>
+    <string name="CompanyName">Binarna Rješenja</string>
+    <string name="CompanyURL">http://lociraj.net</string>
+    <string name="Copyright">(C) 2010</string>
+    <string name="OK">OK</string>
+</resources>

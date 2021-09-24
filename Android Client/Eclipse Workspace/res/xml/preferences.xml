@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/LocationUpdates">
+        <ListPreference android:key="@string/preferences_time_key" 
+            android:title="@string/Time" 
+            android:entryValues="@array/TimeValues" 
+            android:entries="@array/Time" 
+            android:defaultValue="@string/preferences_time_default_value" 
+            android:summary="@string/OneMinute"
+        />
+        <ListPreference android:key="@string/preferences_distance_key" 
+            android:title="@string/Distance" 
+            android:entryValues="@array/DistanceValues" 
+            android:entries="@array/Distance" 
+            android:defaultValue="@string/preferences_distance_default_value" 
+            android:summary="@string/HalfKilometer"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

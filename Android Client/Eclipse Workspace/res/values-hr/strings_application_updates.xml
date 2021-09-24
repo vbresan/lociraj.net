@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Cancel">Odustani</string>
+    <string name="CheckForNewVersion">Potraži novu verziju</string>
+    <string name="ConnectingToServer">Spajam se na server</string>
+    <string name="GettingLastVersionNumber">Provjeravam aktualnu verziju</string>
+    <string name="Update">Ažuriranje</string>
+    <string name="UpdateAction">Instaliraj</string>
+    <string name="UpdateMessage">Postoji nova verzija aplikacije. Da li je želite instalirati na mjesto stare?</string>
+    <string name="UpToDate">Već imate aktualnu verziju aplikacije.</string>
+</resources>

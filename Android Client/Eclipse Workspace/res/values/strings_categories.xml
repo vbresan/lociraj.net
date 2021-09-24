@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="ATMs">ATMs</string>
+<string name="Banks">Banks</string>
+<string name="GasStations">Gas stations</string>
+<string name="Pharmacies">Pharmacies</string>
+<string name="Notaries">Notaries</string>
+<string name="PostOffices">Post offices</string>
+<string name="Hospitals">Hospitals</string>
+<string name="FitnessCenters">Fitness centers</string>
+<string name="IdemVanHr">IdemVan.hr</string>
+</resources>

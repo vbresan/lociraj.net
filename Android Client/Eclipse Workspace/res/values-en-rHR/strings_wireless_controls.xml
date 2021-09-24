@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Error">Greška</string>
+    <string name="ErrorConnecting">Moguće je da niste spojeni na internet. Da li želite uključiti spajanje na mrežu?</string>
+    <string name="No">Ne</string>
+    <string name="Yes">Da</string>    
+</resources>

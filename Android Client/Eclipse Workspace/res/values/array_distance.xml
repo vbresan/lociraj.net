@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Distance">
+	    <item>@string/HalfKilometer</item>
+	    <item>@string/OneKilometer</item>
+	    <item>@string/FiveKilometers</item>
+	    <item>@string/TenKilometers</item>
+	</string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferences_time_key">timeKey</string>
+    <string name="preferences_time_default_value">1</string>
+    <string name="preferences_distance_key">distanceKey</string>
+    <string name="preferences_distance_default_value">1</string>
+</resources>

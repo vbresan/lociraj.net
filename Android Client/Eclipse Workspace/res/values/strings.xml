@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lociraj</string>
+    <string name="app_platform">Android</string>
+    <string name="app_lang">en_US</string>
+    <string name="app_mapsKeyDebug"></string>
+    <string name="app_mapsKey"></string>
+    
+    <string name="app_extras_requestURL">.requestURL</string>
+    <string name="app_extras_resultsNumber">.resultsNumber</string>
+    <string name="app_extras_3rdPartyCategories">.3rdPartyCategories</string>
+    
+    <string name="AddYourBusinessLocation">Add your business location</string>
+    <string name="DataError">Error fetching data. Please retry later.</string>
+    
+    <string name="Filter">Filter:</string>
+    <string name="ResultsNumber">No. of results:</string>
+    <string name="Search">Search</string>
+    
+    <string name="LocationUpdates">Location Updates</string>
+    <string name="Settings">Settings</string>
+    <string name="Time">Time</string>
+    <string name="Distance">Distance</string>
+    
+    <string name="OneMinute">1 minute</string>
+    <string name="FiveMinutes">5 minutes</string>
+    <string name="TenMinutes">10 minutes</string>    
+    
+    <string name="HalfKilometer">0.5 kilometers</string>
+    <string name="OneKilometer">1 kilometer</string>
+    <string name="FiveKilometers">5 kilometers</string>
+    <string name="TenKilometers">10 kilometers</string>
+    
+    <string name="Three">3</string>
+    <string name="Five">5</string>
+    <string name="Ten">10</string>
+</resources>

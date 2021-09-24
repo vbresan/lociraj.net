@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Cancel">Cancel</string>
+    <string name="CheckForNewVersion">Check for new version</string>
+    <string name="ConnectingToServer">Connecting to server</string>
+    <string name="GettingLastVersionNumber">Getting last version number</string>
+    <string name="Update">Update</string>
+    <string name="UpdateAction">Update</string>
+    <string name="UpdateMessage">Your version is not up to date. Would you like to update to newer version?</string>
+    <string name="UpToDate">Your version is up to date.</string>
+</resources>
